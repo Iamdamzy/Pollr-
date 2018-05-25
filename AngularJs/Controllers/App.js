@@ -5,7 +5,7 @@
 //var application = angular.module('iApp', ['datatables', 'datatables.buttons']);
 var local = [];
 local = window.location.href.split("/");
-var serverUrI = window.location.origin + '/psmis'
+var serverUrI = window.location.origin + '/psmis';
 var iApp = angular.module('iApp', ['ui.router', 'oc.lazyLoad', 'datatables', 'datatables.buttons']);
 // + / + local[3]
 iApp.value('$sHub', 'securedHub');

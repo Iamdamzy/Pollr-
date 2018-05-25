@@ -89,7 +89,7 @@ public class BLL
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 email.IsBodyHtml = true;
                 email.Subject = subjectOfMail;
-                email.From = new MailAddress("bigdaddy2030@gmail.com", "PTAD");
+                email.From = new MailAddress("damilareoyebanji@gmail.com", "Pollr");
                 email.Body = message;
                 email.To.Add(mailToSendTo.Trim());
                 smtp.Send(email);

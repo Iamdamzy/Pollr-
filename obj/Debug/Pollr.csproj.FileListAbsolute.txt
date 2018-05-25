@@ -1,0 +1,37 @@
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\csc.exe
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\vbc.exe
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\VBCSCompiler.exe
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\ApplicationInsights.config
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\Pollr.dll.config
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\Pollr.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\Pollr.pdb
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\obj\Debug\Pollr.dll
+C:\Users\ThisisDammy\Documents\Damilare Oyebanji\Pollr\obj\Debug\Pollr.pdb
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\ApplicationInsights.config
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\csc.exe
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\vbc.exe
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\VBCSCompiler.exe
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\Pollr.dll.config
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\Pollr.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\bin\Pollr.pdb
+C:\Users\Benjamin\Documents\Pollr\Pollr\obj\Debug\Pollr.dll
+C:\Users\Benjamin\Documents\Pollr\Pollr\obj\Debug\Pollr.pdb
