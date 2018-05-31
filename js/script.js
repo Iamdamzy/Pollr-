@@ -168,7 +168,104 @@ function initMap() {
 
 
 // Ben Scripting Starts
+$.validator.setDefaults({
+    submitHandler: function () {
+        alert("submitted!");
+    }
+});
 
+$(document).ready(function () {
+    $("#registration_form").validate({
+        rules: {
+            fullName: "required",
+            //					lastname1: "required",
+            userName: {
+                required: true,
+                minlength: 3
+            },
+            password: {
+                required: true,
+                minlength: 5
+            },
+            confirmPassword: {
+                required: true,
+                minlength: 5,
+                equalTo: "#password"
+            },
+            email: {
+                required: true,
+                email: true
+            }
+            //					agree: "required"
+        },
+        messages: {
+            fullName: "Please enter your full name",
+            userName: {
+                required: "Please enter a username",
+                minlength: "Your username must contain at least 3 letters"
+            },
+            password: {
+                required: "Please provide a password",
+                minlength: "Your password must be at least 5 characters long"
+            },
+            confirmPassword: {
+                required: "Please provide a password",
+                minlength: "Your password must be at least 5 characters long",
+                equalTo: "Please enter the same password"
+            },
+            email: {
+                required: "Please enter email address",
+                email: "Please enter a valid Email Address"
+            }
+            //					agree: "Please accept our Terms and Condition"
+        },
+        errorElement: "em",
+        errorPlacement: function (error, element) {
+            // Add the `help-block` class to the error element
+            error.addClass("help-block");
+
+            // Add `has-feedback` class to the parent div.form-group
+            // in order to add icons to inputs
+            element.parents(".col-sm-5").addClass("has-feedback");
+
+            if (element.prop("type") === "checkbox") {
+                error.insertAfter(element.parent("label"));
+            } else {
+                error.insertAfter(element);
+            }
+
+            // Add the span element, if doesn't exists, and apply the icon classes to it.
+            if (!element.next("span")[0]) {
+                $("<span class='glyphicon glyphicon-remove form-control-feedback'></span>").insertAfter(element);
+            }
+        },
+        success: function (label, element) {
+            // Add the span element, if doesn't exists, and apply the icon classes to it.
+            if (!$(element).next("span")[0]) {
+                $("<span class='glyphicon glyphicon-ok form-control-feedback'></span>").insertAfter($(element));
+            }
+        },
+        highlight: function (element, errorClass, validClass) {
+            $(element).parents(".col-sm-5").addClass("has-error").removeClass("has-success");
+            $(element).next("span").addClass("glyphicon-remove").removeClass("glyphicon-ok");
+        },
+        unhighlight: function (element, errorClass, validClass) {
+            $(element).parents(".col-sm-5").addClass("has-success").removeClass("has-error");
+            $(element).next("span").addClass("glyphicon-ok").removeClass("glyphicon-remove");
+        }
+    });
+});
+
+//For Header Appearing in Homepage on Scrolling
+var lazy = $('#header-inverse.lazy-load')
+
+$(window).on('scroll', function () {
+    if ($(this).scrollTop() > 200) {
+        lazy.addClass('visible');
+    } else {
+        lazy.removeClass('visible');
+    }
+});
 
      
 
