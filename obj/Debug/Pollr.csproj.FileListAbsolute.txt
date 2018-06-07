@@ -35,3 +35,4 @@ C:\Users\Benjamin\Documents\Pollr\Pollr\bin\Pollr.dll
 C:\Users\Benjamin\Documents\Pollr\Pollr\bin\Pollr.pdb
 C:\Users\Benjamin\Documents\Pollr\Pollr\obj\Debug\Pollr.dll
 C:\Users\Benjamin\Documents\Pollr\Pollr\obj\Debug\Pollr.pdb
+C:\Users\Benjamin\Documents\Pollr\Pollr\obj\Debug\Pollr.csprojResolveAssemblyReference.cache

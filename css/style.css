@@ -1,47 +1,43 @@
 /*==================================================
-  Template Name: Friend Finder
-  Description: A Social Network Template
-  Author: thunder-team
-  Version: 2.1
 ==================================================*/
 
 /*==================================================
   [Table of Contents]
   --------------------------------------------------
   - body
-    - Typography
-    - Common classes
-    - Header
-    - Homepage
-      - Top Banner
-      - Signup Form
-      - Features
-      - App Download
-      - Image Divider
-      - Site Facts
-      - Live Feed
-    - Landing Page | Register 
-    - Newsfeed 
-      - Left Sidebar
-      - Right Sidebar
-      - Create Post Box
-      - Post Contents
-      - Nearby People
-      - Friend List
-      - Chat Room
-      - Media: image and video 
-    - Timeline
-      - Timeline Sidebar
-      - Post Date
-      - About Profile
-      - Profile Album
-    - Edit Profile
-    - Contact Us
-    - Footer
-    - Media Queries
-    - Slide Animations
-    - Scroll Down Arrow
-    - Preloader
+	- Typography
+	- Common classes
+	- Header
+	- Homepage
+	  - Top Banner
+	  - Signup Form
+	  - Features
+	  - App Download
+	  - Image Divider
+	  - Site Facts
+	  - Live Feed
+	- Landing Page | Register 
+	- Newsfeed 
+	  - Left Sidebar
+	  - Right Sidebar
+	  - Create Post Box
+	  - Post Contents
+	  - Nearby People
+	  - Friend List
+	  - Chat Room
+	  - Media: image and video 
+	- Timeline
+	  - Timeline Sidebar
+	  - Post Date
+	  - About Profile
+	  - Profile Album
+	- Edit Profile
+	- Contact Us
+	- Footer
+	- Media Queries
+	- Slide Animations
+	- Scroll Down Arrow
+	- Preloader
 ==================================================*/
 
 html, body {
@@ -62,12 +58,12 @@ body{
   ==================================================*/
 
 @font-face {
-    font-family:"Agency FB";
-    src: url("../fonts/agency-fb.eot") /* EOT file for IE */
+	font-family:"Agency FB";
+	src: url("../fonts/agency-fb.eot") /* EOT file for IE */
 }
 @font-face {
-    font-family:"Agency FB";
-    src: url("../fonts/agency-fb.ttf") /* TTF file for CSS3 browsers */
+	font-family:"Agency FB";
+	src: url("../fonts/agency-fb.ttf") /* TTF file for CSS3 browsers */
 }
 
 h1, h2, h3, h4, h5, h6{color: #27aae1;}
@@ -1479,24 +1475,24 @@ ul.online-users li span.online-dot{
 /*CSS for custom scrollbar*/
 
 .scrollbar-wrapper.scrollbar-dynamic {
-    max-height: none;
+	max-height: none;
 }
 .scrollbar-wrapper.tab-content{
-    overflow-y: auto;
-    height: 400px;
+	overflow-y: auto;
+	height: 400px;
 }
 
 .scrollbar-wrapper.contact-list{
-    overflow-y: auto;
-    height: 400px;
-    border: none;
-    margin-bottom: 20px;
+	overflow-y: auto;
+	height: 400px;
+	border: none;
+	margin-bottom: 20px;
 }
 
 .scrollbar-wrapper {
-    height: 100%;
-    overflow: auto;
-    width: 100%;
+	height: 100%;
+	overflow: auto;
+	width: 100%;
 }
 
 
@@ -1779,16 +1775,16 @@ ul.interests span.int-icons{
 }
 
 .map-container {
-    width: 100%;
+	width: 100%;
 }
 .map-container iframe{
-    display: block;
-    width: 100%;
-    position: relative; /* IE needs a position other than static */
-    pointer-events: none;
+	display: block;
+	width: 100%;
+	position: relative; /* IE needs a position other than static */
+	pointer-events: none;
 }
 .map-container iframe.clicked{
-    pointer-events: auto;
+	pointer-events: auto;
 }
 
 
@@ -2653,14 +2649,14 @@ ul.contact li i{
 
 @keyframes sk-rotateplane {
   0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+	transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+	-webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
   } 50% {
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+	transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+	-webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
   } 100% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+	-webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
 
